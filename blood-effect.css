@@ -1,0 +1,27 @@
+@keyframes pulseRed {
+    0%   { text-shadow: 0 0 2px #400; }
+    50%  { text-shadow: 0 0 12px #b30000; }
+    100% { text-shadow: 0 0 2px #400; }
+}
+
+@keyframes bloodBlink {
+    0%, 90% { opacity: 1; }
+    92% { opacity: 0.3; }
+    94% { opacity: 1; }
+    96% { opacity: 0.1; }
+    100% { opacity: 1; }
+}
+
+.blood {
+    animation: pulseRed 2s infinite;
+}
+
+.anxiety {
+    animation: bloodBlink 6s infinite;
+}
+
+.warning {
+    color: #ff1a1a;
+    font-weight: bold;
+    animation: pulseRed 1.5s infinite;
+}

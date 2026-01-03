@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vale do Remanso — RPG de Terror Psicológico</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="blood-effect.css">
+    <style>
+        /* Menu fixo no topo */
+        body {
+            background-color: #0c0c0c;
+            color: #f8f8f8;
+            font-family: 'Courier New', monospace;
+            line-height: 1.6;
+            padding-top: 100px; /* Espaço para menu fixo */
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #0c0c0c;
+            border-bottom: 1px solid #660000;
+            padding: 10px 20px;
+            z-index: 1000;
+        }
+
+        header h1 {
+            color: #ff0000;
+            font-family: 'Courier New', monospace;
+            font-size: 2rem;
+            margin: 0;
+            text-transform: uppercase;
+        }
+
+        nav {
+            margin-top: 5px;
+        }
+
+        nav a {
+            color: #ff0000;
+            text-decoration: none;
+            margin-right: 20px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #ff6666;
+        }
+
+        main {
+            max-width: 900px;
+            margin: auto;
+            padding: 0 20px;
+        }
+
+        h2 {
+            color: #ff0000;
+            margin-top: 40px;
+            border-bottom: 1px solid #660000;
+            padding-bottom: 5px;
+        }
+
+        h3 {
+            color: #ff3333;
+            margin-top: 30px;
+        }
+
+        p, li {
+            font-family: 'Courier New', monospace;
+            font-size: 1rem;
+            color: #f8f8f8;
+        }
+
+        code {
+            background-color: #1c1c1c;
+            color: #ff6666;
+            padding: 2px 5px;
+            display: block;
+            margin: 10px 0;
+            white-space: pre-wrap;
+        }
+
+        ul {
+            margin-left: 20px;
+        }
+
+        .footer {
+            margin-top: 60px;
+            border-top: 1px solid #660000;
+            padding: 20px 0;
+            font-size: 0.9rem;
+            color: #999;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Vale do Remanso</h1>
+    <nav>
+        <a href="#introducao">Introdução</a>
+        <a href="#personagens">Personagens</a>
+        <a href="#sistema">Sistema de Fichas</a>
+        <a href="#realidade">Realidade do Jogo</a>
+        <a href="#objetivo">Objetivo</a>
+    </nav>
+</header>
+
+<main>
+    <section id="introducao">
+        <h2>Introdução ao RPG</h2>
+        <h3>Ecos do Vale do Remanso</h3>
+        <p>O Vale do Remanso é um lugar comum. Ou pelo menos <strong>parece</strong>.</p>
+        <p>Interior dos anos 90. Estradas vazias. Casas simples. Pessoas que se conhecem pelo nome. Um lugar onde o tempo passa devagar demais para perceber que algo está errado.</p>
+        <p>Mas algo está.</p>
+        <p>Este RPG não é sobre heróis. Não é sobre vencer monstros. É sobre <strong>pessoas comuns tentando continuar vivendo</strong> enquanto a realidade começa a falhar.</p>
+        <p>O terror aqui não grita. Ele observa. Ele se repete. Ele apaga.</p>
+        <p>E, quando você percebe… já aconteceu antes.</p>
+
+        <h3>Estilo do RPG</h3>
+        <ul>
+            <li>Terror psicológico</li>
+            <li>Horror existencial</li>
+            <li>Mistério lento e opressivo</li>
+            <li>Personagens frágeis</li>
+            <li>Realidade instável</li>
+        </ul>
+        <p>Não espere ação constante. Não espere respostas claras.</p>
+        <p>Espere silêncios desconfortáveis, falhas de memória, contradições entre versões da verdade e situações que parecem erradas, mas ninguém comenta.</p>
+        <p>Aqui, <strong>sobreviver não significa vencer</strong>. Significa <strong>aguentar</strong>.</p>
+
+        <h3>Sobre os Personagens</h3>
+        <p>Todos os personagens são <strong>pessoas normais</strong>. Eles têm rotinas, medos simples, desejos pequenos e vidas que já estavam em andamento.</p>
+        <p>Nada começa “do zero”. Cada personagem já carrega erros, escolhas ruins e consequências <strong>antes mesmo do jogo começar</strong>. Você não cria um personagem. Você <strong>assume uma vida que já existe</strong>.</p>
+
+        <h3>Sistema de Fichas (Hexatombe)</h3>
+        <p>Os jogadores <strong>não criam personagens</strong>. Cada ficha já vem completa e pronta.</p>
+
+        <h3>Escolha de Fichas — Passo a Passo</h3>
+        <ol>
+            <li><strong>O Mestre prepara várias fichas completas:</strong> nome, idade, aparência, história, personalidade, medos, desejos, atributos, inventário.</li>
+            <li><strong>As fichas são apresentadas de forma limitada:</strong> Nome, idade e imagem/token. Não mostram traumas ou destino.</li>
+            <li><strong>O jogador escolhe uma ficha:</strong> Escolha definitiva, emocional ou estética. Sem otimizações.</li>
+            <li><strong>Após a escolha:</strong> ficha completa revelada: quem você é, o que perdeu, o que teme, o que deseja. A partir deste momento, o personagem está fixo.</li>
+        </ol>
+
+        <h3>Formato de Ficha</h3>
+        <code>
+Personagem: NOME COMPLETO
+Idade:
+Altura:
+Ano: 1994
+Token: (imagem)
+
+Atributos:
+- Força
+- Agilidade
+- Intelecto
+- Carisma
+- Percepção
+- Vontade
+
+Inventário:
+
+História (texto longo):
+
+Medos:
+
+Personalidade:
+
+Jeito de agir:
+- Em combate
+- Em roleplay social
+- Em investigação
+
+Gostos pessoais:
+- Comida favorita
+- Sonho
+- Maior desejo
+- Paixões
+        </code>
+
+        <h3>Sobre a Realidade do Jogo</h3>
+        <ul>
+            <li>Eventos podem não fazer sentido</li>
+            <li>Algumas coisas podem ser esquecidas</li>
+            <li>O passado pode mudar</li>
+            <li>A cidade pode negar o que aconteceu</li>
+        </ul>
+        <p>Se algo estranho acontecer: não questione imediatamente. Anote. Observe. Continue jogando.</p>
+
+        <h3>Objetivo do RPG</h3>
+        <p>Não existe final feliz garantido.</p>
+        <ul>
+            <li>Descobrir quem você está interpretando</li>
+            <li>Entender o que está errado com o Vale</li>
+            <li>Decidir até onde vale a pena ir para continuar existindo</li>
+        </ul>
+        <p>Alguns personagens vão quebrar. Outros vão desaparecer. Alguns talvez <strong>nunca tenham sido importantes o bastante para serem lembrados</strong>.</p>
+
+        <h3>Frase Final</h3>
+        <p><em>"Algumas escolhas são feitas antes mesmo de você saber que está jogando."</em></p>
+    </section>
+
+    <section id="personagens">
+    <h2>Personagens Jogáveis</h2>
+    <div class="personagem-lista">
+        <a href="dudu.html" class="personagem-card">Eduardo "Dudu" Ramos — O Popularzinho</a>
+        <a href="tiz.html" class="personagem-card">Matheus "Tiz" Azevedo — O Nerd do Rádio</a>
+        <a href="vinicius.html" class="personagem-card">Vinícius Rocha — O Briguento Temido</a>
+        <a href="caio.html" class="personagem-card">Caio Mendes — O Perdido</a>
+        <a href="marina.html" class="personagem-card">Marina Alves — A Sensível</a>
+        <a href="clara.html" class="personagem-card">Clara Menezes — A Racional Cansada</a>
+    </div>
+</section>
+
+
+    <section id="sistema">
+        <h2>Sistema de Fichas</h2>
+        <p>O sistema segue o modelo Hexatombe, com fichas pré-definidas e escolhas definitivas.</p>
+    </section>
+
+    <section id="realidade">
+        <h2>Sobre a Realidade do Jogo</h2>
+        <p>Eventos podem ser alterados, esquecidos ou negados pelo mundo. O Vale do Remanso é instável.</p>
+    </section>
+
+    <section id="objetivo">
+        <h2>Objetivo do RPG</h2>
+        <p>Sobreviver não significa vencer, significa aguentar e descobrir sua própria história dentro do Vale.</p>
+    </section>
+
+    <div class="footer">
+        © 2026 Vale do Remanso — Todos os direitos reservados
+    </div>
+</main>
+
+</body>
+</html>
